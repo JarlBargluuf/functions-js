@@ -4,9 +4,9 @@ function sumArr(list) {
 
     for (let i = 0; i < list.length; i++) {
 
-        let newArr = list[i] + list[i]
+        let newarr = list[i] + list[i]
         
-        arr.push(newArr)
+        arr.push(newarr)
 
     }
 

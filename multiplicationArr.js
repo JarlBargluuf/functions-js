@@ -1,15 +1,15 @@
 function multiplicationArr(list) {
 
-    let Newlist = []
+    let newlist = []
 
     for (let i = 0; i < list.length; i++) {
 
-        let newEl = list[i] * 2
+        let newel = list[i] * 2
 
-        Newlist.push(newEl)
+        newlist.push(newel)
     }
 
-    return Newlist;
+    return newlist;
 }
 
 console.log(multiplicationArr([ 5 , 36 , 10 ]));

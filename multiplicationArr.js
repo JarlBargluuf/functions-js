@@ -5,7 +5,6 @@ function multiplicationArr(list) {
     for (let i = 0; i < list.length; i++) {
 
         let newel = list[i] * 2
-
         newlist.push(newel)
     }
 

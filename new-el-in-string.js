@@ -1,25 +1,15 @@
-function padIt(str,n){
-  let resultat = str
+function newel(str,n){
   let i = 0
+
   while  (i < n) {
   if (i % 2 === 0) {
-  str = `*${resultat}`
+  str = '*' + str
   } else {
-  resultat = `${resultat}*`
+  str = str + '*'
   }
-  i+=1
+  i += 1
   }
-  return resultat
+
+  return str
 }
 
-/*  function padIt(str,n){
-    while(n>0){
-      if(n%2 === 0) {
-        str = str + "*";
-      }else{
-        str = "*" + str;
-      }
-      n --;
-    }
-    return str;
-  } */

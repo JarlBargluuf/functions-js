@@ -1,4 +1,4 @@
-function newel(str,n){
+function newEl(str, n) {
   let i = 0
 
   while  (i < n) {
@@ -7,9 +7,10 @@ function newel(str,n){
   } else {
   str = str + '*'
   }
+
   i += 1
   }
 
-  return str
+  return str;
 }
 

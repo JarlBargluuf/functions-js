@@ -3,9 +3,9 @@ function newEl(str, n) {
 
   while  (i < n) {
   if (i % 2 === 0) {
-  str = '*' + str
+    str = '*' + str
   } else {
-  str = str + '*'
+    str = str + '*'
   }
 
   i += 1

@@ -12,4 +12,10 @@
 function getSums(arr) {
   let result = []
   
-  let sum = arr.reduce(function)
+    arr.reduce(function(sum, current) {
+    result.push(sum += current)
+    return sum;
+  }, 0)
+
+  return result;
+}
